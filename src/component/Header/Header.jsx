@@ -2,6 +2,7 @@ import React from 'react'
 import '../Header/Header.css';
 import { CTA } from './CTA';
 import { HeaderSocials } from './HeaderSocials';
+import Me from '../../asset/Arjun.png'
 
 
 
@@ -16,7 +17,7 @@ export const Header = () => {
       <HeaderSocials/>
 
       <div className="me">
-        <img src="" alt="" />
+        <img src={Me} alt="" />
       </div>
 
       <a href="#contact" className='scroll__down'>Scroll Down</a>
