@@ -36,6 +36,7 @@
 .about__card{
   background: var(--color-bg-variant) ;
   border: 1px solid transparent;
+  border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
@@ -54,4 +55,12 @@
 
 .about__icon h5{
   font-size: 0.9rem;
+}
+.about__card small{
+  font-size: 0.7rem;
+  color:var(--color-light);
+}
+.about__content p{
+  margin: 2rem 0 0.2rem;
+  color:var(--color-light);
 }
