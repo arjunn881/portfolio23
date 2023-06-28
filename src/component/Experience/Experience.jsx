@@ -12,42 +12,42 @@ export const Experience = () => {
         <div className="experience__frontend">
           <h3>Frontend Developement</h3>
           <div className="experience__content">
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>HTML</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>CSS</h4>
               <small className="text-light">Experienced</small>
             </article>
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>SASS</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>javaScript</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>jQuery</h4>
               <small className="text-light">Experienced</small>
             </article>
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>Bootstrap</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon" />
               <h4>React Js</h4>
               <small className="text-light">Experienced</small>
             </article>
@@ -57,25 +57,25 @@ export const Experience = () => {
         <div className="experience__backend">
           <h3>Backend Developement</h3>
           <div className="experience__content">
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill  className="experience__details-icon"/>
               <h4>Node Js</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>Express Js</h4>
               <small className="text-light">Experienced</small>
             </article>
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>Mongo DB</h4>
               <small className="text-light">Experienced</small>
             </article>
 
-            <article className="experience details">
-              <BsPatchCheckFill />
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>MySQL</h4>
               <small className="text-light">Experienced</small>
             </article>
