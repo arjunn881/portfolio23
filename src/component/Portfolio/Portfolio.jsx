@@ -1,5 +1,55 @@
 import React from "react";
 
+
+
+
+const data = [
+  {
+    id:1,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+
+  {
+    id:2,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+
+
+  {
+    id:3,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+
+
+  {
+    id:4,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+
+
+  {
+    id:5,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+
+
+  {
+    id:6,
+    img:"",
+    title:" Wbsite for Demo",
+    demo:"///",
+  },
+]
 export const Portfolio = () => {
   return (
     <section id="portfolio">
