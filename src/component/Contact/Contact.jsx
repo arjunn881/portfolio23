@@ -45,7 +45,10 @@ export const Contact = () => {
         </div>
 
         <form action="">
-
+          <input type="text" name='name'  placeholder='' required/>
+          <input type="email" name='email'  placeholder='' required/>
+          <textarea type="message" name='message'  placeholder='' required/>
+          <button type="submit"> Send Message</button>
         </form>
       </div>
     </section>
