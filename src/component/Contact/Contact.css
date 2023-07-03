@@ -5,7 +5,7 @@ grid-template-columns:30% 58% ;
 gap: 12%;
 }
 
-.conatct__options{
+.contact__options{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -59,6 +59,7 @@ input,textarea{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
 }
 
 @media screen and (max-width: 600px){
