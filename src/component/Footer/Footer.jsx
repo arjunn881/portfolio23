@@ -13,23 +13,27 @@ export const Footer = () => {
         </li>
 
         <li>
-          <a href="#">Home</a>
+          <a href="#about">About</a>
         </li>
 
         <li>
-          <a href="#">Home</a>
+          <a href="#experience">Experience</a>
         </li>
 
         <li>
-          <a href="#">Home</a>
+          <a href="#services">Services</a>
         </li>
 
         <li>
-          <a href="#">Home</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
 
         <li>
-          <a href="#">Home</a>
+          <a href="#testimonials">Testimonials</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
@@ -37,6 +41,10 @@ export const Footer = () => {
         <a href=""></a>
         <a href=""></a>
         <a href=""></a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy; Arjuna. All rights reserved.</small>
       </div>
     </footer>
   );
