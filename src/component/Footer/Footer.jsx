@@ -1,4 +1,7 @@
 import React from "react";
+import { FaFacebookF } from 'react-icons/fa'
+import { FiInstagram } from 'react-icons/fi'
+import { IoLogoTwitter } from 'react-icons/io'
 
 export const Footer = () => {
   return (
@@ -38,9 +41,9 @@ export const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href=""><FaFacebookF/></a>
+        <a href=""><FiInstagram/></a>
+        <a href=""><IoLogoTwitter/></a>
       </div>
 
       <div className="footer__copyright">
