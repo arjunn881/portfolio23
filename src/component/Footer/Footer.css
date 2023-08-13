@@ -52,5 +52,16 @@ footer a {
 .footer__copyright{
     margin-bottom: 4rem;
     color:var(--color-bg);
-    
+
 }
+
+@media screen and (max-width: 600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .experience__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+ }
