@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import Stack from '../../asset/Project/stack.png'
+import Music from '../../asset/Music.png'
 
 const data = [
   {
@@ -53,6 +54,14 @@ const data = [
     title: "Admin Panel",
     github: "https://github.com/arjunn881",
     demo : ""
+  },
+
+  {
+    id: 8,
+    img: Music,
+    title: "Music Player",
+    github: "https://github.com/arjunn881/Music-Player",
+    demo : "https://meek-melba-61ba55.netlify.app/"
   },
 
 
