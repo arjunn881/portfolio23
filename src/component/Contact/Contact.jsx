@@ -16,21 +16,21 @@ export const Contact = () => {
             <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>arjunn881@gmail.com</h5>
-            <a href="arjunn881@gmail.com">Send a message</a>
+            <a href="https://mail.google.com/">Send a message</a>
           </article>
 
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>arjunn881@gmail.com</h5>
-            <a href="arjunn881@gmail.com">Send a message</a>
+            <a href="https://www.facebook.com">Send a message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp  className="contact__option-icon"/>
             <h4>WhatsApp</h4>
-            <h5>9036985518</h5>
-            <a href="arjunn881@gmail.com">Send a message</a>
+            <h5>7978647324</h5>
+            <a href="https://wa.link/g58esu">Send a message</a>
           </article>
         </div>
 
