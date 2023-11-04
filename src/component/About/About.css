@@ -41,17 +41,19 @@
   gap: 1.5rem;
 }
 .about__card{
-  background: var(--color-bg-variant) ;
-  border: 1px solid transparent;
+  background: var(--color-bg) ;
   border-radius: 1rem;
+  border: 1px solid var(--color-bg-variant);
   padding: 2rem;
   text-align: center;
   cursor: pointer;
+
 }
 
 .about__card:hover{
+  border-color: var(--color-primary-varient) ;
   background: transparent;
-  border:var(--color-primary-variant) ;
+  
   cursor: pointer;
 }
 

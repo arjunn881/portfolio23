@@ -149,7 +149,7 @@ img {
   }
 }
 
-:root{
+/* :root{
 
 --ec-200: #dfe2e9;
 --ec-300: #bac0cc;
@@ -178,4 +178,4 @@ img {
 --black: #000;
 --white: #fff;
 --circ-in-out: cubic-bezier(.785,.135,.15,.86);
-}
+} */
