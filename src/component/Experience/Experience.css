@@ -58,6 +58,11 @@
 
  
  @media screen and (max-width: 600px) {
+    .experience__content{
+        display: flex;
+        flex-direction: column;
+    }
+
     .experience__container{
         gap: 1rem;
     }

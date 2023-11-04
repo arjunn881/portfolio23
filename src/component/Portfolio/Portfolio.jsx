@@ -1,48 +1,61 @@
 import React from "react";
 import "./Portfolio.css";
+import Stack from '../../asset/Project/stack.png'
 
 const data = [
   {
     id: 1,
-    img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    img: Stack,
+    title: "Stack Overflow Clone",
+    github: "https://github.com/arjunn881/stackoverflow",
+    demo : "https://stack-client.onrender.com/"
   },
 
   {
     id: 2,
     img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    title: "NetFlix Clone",
+    github: "https://github.com/arjunn881",
+    demo : ""
   },
-
   {
     id: 3,
     img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    title: "Kafene",
+    github: "https://github.com/arjunn881",
+    demo : ""
   },
-
   {
     id: 4,
     img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    title: "Youtube Clone API",
+    github: "https://github.com/arjunn881",
+    demo : ""
   },
 
   {
-    id: 5,
+    id:     5,
     img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    title: "Ecommerce API",
+    github: "https://github.com/arjunn881",
+    demo : ""
   },
-
   {
     id: 6,
     img: "",
-    title: " Wbsite for Demo",
-    demo: "///",
+    title: "Social Media App",
+    github: "https://github.com/arjunn881",
+    demo : ""
   },
+  {
+    id: 7,
+    img: "",
+    title: "Admin Panel",
+    github: "https://github.com/arjunn881",
+    demo : ""
+  },
+
+
 ];
 export const Portfolio = () => {
   return (
@@ -55,16 +68,16 @@ export const Portfolio = () => {
           <article className="portfolio__item" key={data.id}>
             <div className="portfolio__item-image">
               <img
-                src="https://img.freepik.com/free-vector/illustration-startup-business_53876-9142.jpg?w=360&t=st=1688030270~exp=1688030870~hmac=7424fdf0abcfaa18ae4272019c5720a1ebe85c219f52824c79c0ffed9adddd1b"
+                src={data.img}
                 alt=""
               />
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>{data.title}</h3>
             <div className="portfolio__item-cta">
-              <a href="http://github.com/arjunn881" className="btn">
+              <a href={data.github} target="_blank" className="btn">
                 Github
               </a>
-              <a href="http://github.com/arjunn881" className="btn btn-primary">
+              <a href={data.demo} target="_blank" className="btn btn-primary">
                 Live Demo
               </a>
             </div>

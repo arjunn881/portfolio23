@@ -16,10 +16,28 @@ export const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                HTML,CSS, JavaScript & jQuery , Bootstrap
               </p>
             </li>
             <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Figma
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                React Js, CSS, SASS (ReactUI)
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                React Js, MaterialUI
+              </p>
+            </li>
+            {/* <li>
               <BiCheck className="service__list-icon" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,13 +54,7 @@ export const Services = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -54,33 +66,33 @@ export const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                HTML, CSS, JavaScript
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                HTML,CSS,jQuery
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                HTML,Bootstrap, JavaSript or jquery
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                MERN Stack (React js, Expess js, Node js & MongoDB)
               </p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                
               </p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
@@ -92,10 +104,10 @@ export const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Coming Soon....
               </p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className="service__list-icon" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -118,7 +130,7 @@ export const Services = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-            </li>
+            </li> */}
           </ul>
         </article>
       </div>

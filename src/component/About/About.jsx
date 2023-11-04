@@ -25,25 +25,41 @@ export const About = () => {
               <small>1+ Years Working</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>40+ Worldwide</small>
-            </article>
+            </article> */}
 
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>30+ Completed</small>
-            </article>
+            <a
+              href="https://github.com/arjunn881?tab=repositories"
+              target="_blank"
+            >
+              <article className="about__card">
+                <VscFolderLibrary className="about__icon" />
+                <h5>Projects</h5>
+                <small>5+ Completed</small>
+              </article>
+            </a>
           </div>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Proficient in HTML, CSS, JavaScript, jQuery, ReactJS, React Router,
+            MongoDB, Node.js, and Express.js. Experience in developing web
+            applications with a focus on performance, scalability, and user
+            experience. Knowledge of front-end frameworks and libraries such as
+            Bootstrap, Material UI, and Redux. Ability to work with back-end
+            technologies and databases such as MongoDB, MySQL, and Firebase.
+            Experience in building RESTful APIs and integrating third-party
+            APIs. Familiarity with Git and GitHub. Strong problem-solving skills
+            and attention to detail. Excellent communication and collaboration
+            skills. If you're looking for a Full Stack Web Developer with
+            expertise in the technologies mentioned above, feel free to reach
+            out to me. I am open to new opportunities and excited to take on new
+            challenges.
           </p>
-          <a href="#contact" className="btn btn-primary "> Let's Talk</a>
+          <a href="#contact" className="btn btn-primary ">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

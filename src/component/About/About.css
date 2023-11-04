@@ -46,12 +46,13 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .about__card:hover{
   background: transparent;
   border:var(--color-primary-variant) ;
-  cursor: default;
+  cursor: pointer;
 }
 
 .about__icon{

@@ -10,15 +10,16 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     /* border: 0.4rem solid var(--color-primary-varient); */
-    border: 0.4rem solid rgba(77, 181, 255, 0.4);
+    border: 0.4rem solid var(--color-primary);
    
 }
 
 .testimonial{
-    background: #2c2c6c;
+    background:var(--color-bg) ;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
+    border: 1px solid var(--color-bg-variant);
     user-select: none;
 }
 
