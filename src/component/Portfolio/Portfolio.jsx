@@ -2,6 +2,8 @@ import React from "react";
 import "./Portfolio.css";
 import Stack from '../../asset/Project/stack.png'
 import Music from '../../asset/Music.png'
+import Kafene from '../../asset/Kafene.png'
+import Samanta from '../../asset/Samanta.png'
 
 const data = [
   {
@@ -14,17 +16,17 @@ const data = [
 
   {
     id: 2,
-    img: "",
-    title: "NetFlix Clone",
-    github: "https://github.com/arjunn881",
-    demo : ""
+    img: Samanta,
+    title: "Samanta Speaks",
+    github: "https://github.com/arjunn881/samanta-speaks",
+    demo : "https://samanta-speaks.onrender.com/"
   },
   {
     id: 3,
-    img: "",
+    img: Kafene,
     title: "Kafene",
-    github: "https://github.com/arjunn881",
-    demo : ""
+    github: "https://github.com/arjunn881/Kafene-React",
+    demo : "https://kafene.onrender.com/"
   },
   {
     id: 4,

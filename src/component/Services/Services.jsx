@@ -37,6 +37,12 @@ export const Services = () => {
                 React Js, MaterialUI
               </p>
             </li>
+            <li>
+            <BiCheck className="service__list-icon" />
+              <p>
+                Responsive Design
+              </p>
+            </li>
             {/* <li>
               <BiCheck className="service__list-icon" />
               <p>
