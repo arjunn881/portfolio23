@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import Resume from '../../asset/Resume.pdf'
+import Resume from '../../asset/Arjuna 1112.pdf';
 
 export const CTA = () => {
   return (
